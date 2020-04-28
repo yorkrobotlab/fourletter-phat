@@ -8,5 +8,5 @@ except ImportError:
     elif version_info[0] == 3:
         raise ImportError("This library requires python3-smbus\nInstall with: sudo apt-get install python3-smbus")
 
-bus = smbus.SMBus(1)
+bus = smbus.SMBus(3)
 

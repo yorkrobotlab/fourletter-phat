@@ -4,7 +4,7 @@ from .i2c_bus import bus
 from .alphanum4 import AlphaNum4
 from .HT16K33 import *
 
-__version__ = '0.1.0'
+__version__ = '0.1.0+pipuck'
 
 
 display = None
@@ -158,7 +158,7 @@ def setup():
     if _is_setup:
         return True
 
-    display = AlphaNum4(i2c=bus)
+    display = AlphaNum4(i2c=bus, address=0x71)
     display.begin()
     display.clear()
     display.show()

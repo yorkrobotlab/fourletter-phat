@@ -39,7 +39,7 @@ classifiers = ['Development Status :: 5 - Production/Stable',
 
 setup(
     name            = 'fourletterphat',
-    version         = '0.1.0',
+    version         = '0.1.0+pipuck',
     author          = 'Philip Howard',
     author_email    = 'phil@pimoroni.com',
     description     = 'Four Letter pHAT Driver',
